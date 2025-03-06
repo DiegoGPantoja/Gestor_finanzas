@@ -1,0 +1,73 @@
+{
+    "saldo": 2354.220000000001,
+    "proximos_pagos": [
+        {
+            "fecha": "2025-03-05",
+            "descripcion": "Renta",
+            "monto": 4000,
+            "pagado": 1,
+            "estatus": 0
+        },
+        {
+            "fecha": "2025-03-06",
+            "descripcion": "Adelanto viaje Queretaro",
+            "monto": 1500,
+            "pagado": 1,
+            "estatus": 0
+        },
+        {
+            "fecha": "2025-03-07",
+            "descripcion": "Telefono",
+            "monto": 1500,
+            "pagado": 0,
+            "estatus": 1
+        },
+        {
+            "fecha": "2025-03-15",
+            "descripcion": "Box",
+            "monto": 1550,
+            "pagado": 0,
+            "estatus": 1
+        },
+        {
+            "fecha": "2025-03-19",
+            "descripcion": "Seguro Moto",
+            "monto": 600.0,
+            "pagado": 0,
+            "estatus": 0
+        }
+    ],
+    "historial_ingresos": [],
+    "historial_gastos": [
+        {
+            "descripcion": "FIFA con Amigos",
+            "monto": 340.0,
+            "timestamp": 1741137692.4410944
+        },
+        {
+            "descripcion": "Pizzas",
+            "monto": 373.8,
+            "timestamp": 1741137715.4220212
+        },
+        {
+            "descripcion": "Reparacion de moto",
+            "monto": 550.0,
+            "timestamp": 1741137816.114566
+        },
+        {
+            "descripcion": "Oxxo",
+            "monto": 235.5,
+            "timestamp": 1741137837.2816074
+        },
+        {
+            "descripcion": "Oxxo",
+            "monto": 106.5,
+            "timestamp": 1741137851.5488687
+        },
+        {
+            "descripcion": "Oxxo",
+            "monto": 64.0,
+            "timestamp": 1741212404.2477207
+        }
+    ]
+}
