@@ -20,7 +20,7 @@
             "descripcion": "Telefono",
             "monto": 1500,
             "pagado": 0,
-            "estatus": 1
+            "estatus": 0
         },
         {
             "fecha": "2025-03-15",
