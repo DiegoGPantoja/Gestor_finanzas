@@ -201,8 +201,12 @@ class FinanzasApp(QWidget):
         self.lista_pagos.clear()  # Limpiar lista de pagos
         saldo_proyectado = self.datos['saldo']
         hoy = datetime.today().date()  # Fecha actual
+        pagos = self.datos["proximos_pagos"]
 
-        for pago in self.datos["proximos_pagos"]:
+        # Ordenar la lista por la marca de tiempo
+        pagos.sort(key=lambda x: x['fecha'], reverse=False)
+
+        for pago in pagos:
             # Convertir la fecha del pago a un objeto datetime
             fecha_original = pago['fecha']
             fecha_pago = datetime.strptime(fecha_original, "%Y-%m-%d").date()
